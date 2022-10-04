@@ -5,3 +5,42 @@
 .my_red {
 	color:red;
 }
+
+#aswrap{
+	display: flex;
+}
+
+.asmenu{
+	padding : 100px 150px 0px 150px;
+}
+
+.astitle{
+	font-size: 30px;
+    font-weight: 900;
+}
+
+.aspositon{
+    padding : 30px 50px 0px 50px; 
+}
+
+.asproposal{
+	padding : 20px 50px 0px 50px; 
+}
+
+.aspositon a{
+	font-size: 20px;
+    font-weight: 900;
+}
+
+.aspositon a:hover{
+	color : green;
+}
+
+.asproposal a{
+	font-size: 20px;
+    font-weight: 900;
+}
+
+.asproposal a:hover{
+	color : green;
+}

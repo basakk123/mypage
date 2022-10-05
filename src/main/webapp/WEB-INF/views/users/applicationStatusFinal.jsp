@@ -2,11 +2,12 @@
 
 <%@ include file="../layout/header.jsp"%>
 
-<div id="aswrap">
-<div class="asmenu">
-	<p class="astitle">지원 현황</p>
+<div id="wrap">
+<div class="menu">
+	<p class="title">지원 현황</p>
 	<ul>
-		<li class ="aspositon"><a href="/applicationstatus">지원한 포지션</a></li>
+		<li class ="positon"><a href="/applicationstatusall">지원한 포지션</a></li>
+		<li class ="proposal"><a href="/proposal">받은 요청</a></li>
 	</ul>
 </div>
 

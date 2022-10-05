@@ -6,41 +6,205 @@
 	color:red;
 }
 
-#aswrap{
+#mpwrap{
+	width : 1200px;
+	margin : 0 auto;
+	display : flex;
+}
+
+#mpwrap .mypage{
+    width: 330px;
+	padding : 40px;
+}
+
+.mypagetitle{
+	font-size : 25px;
+	font-weight : 900;
+	padding : 30px 0px;
+}
+
+.mpinfo{
+	border : 2px solid gray;
+}
+
+#mpwrap .mpcontents{
+	width : 60%;
+}
+
+.mpaccount{
+	border-bottom : 1px solid gray;
+}
+
+.mpaccount div img{
+	width: 230px;
+    height: auto;
+    display: block;
+    margin : 0 auto;
+}
+
+.mpacc .name{
+	color : gray;
+	font-size : 20px;
+	font-weight : 900;
+	text-align : center;
+	margin : 0px  0px 30px 0px;
+}
+
+.mpacc .call{
+	text-align : center;
+}
+
+.mpacc .email{
+	text-align : center;
+	margin : 0px  0px 30px 0px;
+}
+
+.mpaccsetting button{
+	width: 180px;
+    height: 30px;
+    margin : 0px  0px 30px 35px;
+    border-radius: 50px;
+    background : gray;
+    text-align: center;
+    line-height: 30px;
+    border : none;
+}
+
+.mpstatus{
+	padding : 15px;
+}
+
+.mpstatus ul li{
+	padding-bottom : 18px;
+	display : flex;
+	justify-content: between-around;
+}
+
+.mpapplications{
+	border : 1px solid gray;
+	display : flex;
+}
+
+.mpapplicationcounts{
+	display : flex;
+}
+
+.mpposition{
+	border : 1px solid gray;
+}
+
+.mprecommend{
+	border : 2px solid gray;
+}
+
+.mprecommend .mprecos{
+	display : flex;
+}
+
+.mprecommend .mprecos .mpreco1 div img{
+	width: 10%;
+    height: auto;
+}
+
+.mprecommend .mprecos .mpreco2 div img{
+	width: 10%;
+    height: auto;
+}
+
+.mprecommend .mprecos .mpreco3 div img{
+	width: 10%;
+    height: auto;
+}
+
+.mprecommend .mprecos .mpreco4 div img{
+	width: 10%;
+    height: auto;
+}
+
+#wrap{
+	width : 1200px;
+	margin : 0 auto;
 	display: flex;
 }
 
-.asmenu{
+.menu{
 	padding : 100px 150px 0px 150px;
 }
 
-.astitle{
+.title{
 	font-size: 30px;
     font-weight: 900;
 }
 
-.aspositon{
+.positon{
     padding : 30px 50px 0px 50px; 
 }
 
-.asproposal{
+.proposal{
 	padding : 20px 50px 0px 50px; 
 }
 
-.aspositon a{
+.positon a{
 	font-size: 20px;
     font-weight: 900;
 }
 
-.aspositon a:hover{
+.positon a:hover{
 	color : green;
 }
 
-.asproposal a{
+.proposal a{
 	font-size: 20px;
     font-weight: 900;
 }
 
-.asproposal a:hover{
+.proposal a:hover{
 	color : green;
+}
+
+.count{
+	display : flex;
+}
+
+.countall{
+	padding : 30px;
+	border-right : 2px solid gray;
+}
+
+.countall .number{
+	font-size : 50px;
+}
+
+.countall .text{
+	font-size : 18px;
+}
+
+.countcompletion{
+	padding : 30px;
+	border-right : 2px solid gray;
+}
+
+.countcompletion .number{
+	font-size : 50px;
+}
+
+.countcompletion .text{
+	font-size : 18px;
+}
+
+.countfinal{
+	padding : 30px;
+}
+
+.countfinal .number{
+	font-size : 50px;
+}
+
+.countfinal .text{
+	font-size : 18px;
+}
+
+.pptitle{
+	font-size : 25px;
+	padding : 150px 0px 50px 0px;
 }

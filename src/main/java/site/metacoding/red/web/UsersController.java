@@ -136,6 +136,9 @@ public class UsersController {
         session.invalidate();
         return "redirect:/loginForm";
     }
+    
+    
+    //여기서 부터 새로 만든거
 
     @GetMapping("/mypage")
     public String getMyPage() {
